@@ -5,7 +5,7 @@ The purpose of Pyber analysis is to present business recommendations for CEO, V.
 ## Analysis Results:
 First of all, to create the summary of dataframe, I retrieval data and made group and count for each columns I need such as total rides, total driver and total fares. Once I know all the values of the list above, I calculated average fare per ride and average fare per driver by city type.
 
-![Pyber_summary_DataFrame](https://github.com/msjj622/PyBer_Analysis/blob/main/Images/Pyber_summary_DataFrame.png
+![Pyber_summary_DataFrame](https://github.com/msjj622/PyBer_Analysis/blob/main/Images/Pyber_summary_DataFrame.png)
 
 Second, by using two functions of pivot() and resample(), I created a multiple-line graph that shows the total fares for each week by city type. To create a new DataFrame with multiple indices, I firstly grouped on the "type" and "date" columns of the Pyber summary dataframe I created above. Then, used sum() method on the "fare" column to show the total fare amount for each date. 
 
